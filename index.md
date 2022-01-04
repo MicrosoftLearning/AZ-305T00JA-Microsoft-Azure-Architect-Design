@@ -1,25 +1,17 @@
----
-title: Online Hosted Instructions
+﻿---
+title: オンライン ホステッド インストラクション
 permalink: index.html
 layout: home
 ---
 
-# Content Directory
+# コンテンツ ディレクトリ
 
-Hyperlinks to each of the lab exercises and demos are listed below.
+各ケース スタディへのハイパーリンクを以下に一覧表示します。
 
-## Labs
+## ケース スタディ
 
-{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
-| Module | Lab |
+{% assign casestudy = site.pages | where_exp:"page", "page.url contains '/Instructions/CaseStudy'" %}
+| モジュール | ケース スタディ |
 | --- | --- | 
-{% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
-{% endfor %}
-
-## Demos
-
-{% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
-| Module | Demo |
-| --- | --- | 
-{% for activity in demos  %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
+{% for activity in casestudy  %}| {{ activity.casestudy.module }} | [{{ activity.casestudy.title }}{% if activity.casestudy.type %} - {{ activity.casestudy.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
