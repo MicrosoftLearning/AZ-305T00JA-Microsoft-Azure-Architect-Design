@@ -1,4 +1,4 @@
-﻿# AZ-305: Microsoft Azure インフラストラクチャの設計
+# AZ-305: Microsoft Azure インフラストラクチャの設計
 
 - **[ケーススタディへのリンク (HTML 形式)](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/)**
 - **MCT の場合:** - [MCT 向け GitHub ユーザー ガイド](https://microsoftlearning.github.io/MCT-User-Guide-JA/)をご覧ください

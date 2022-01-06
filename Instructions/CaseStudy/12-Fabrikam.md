@@ -1,4 +1,4 @@
-﻿---
+---
 casestudy:
     title: 'オプションのケース?スタディ: Fabrikam Residences'
     module: 'オプションのケース?スタディ: Fabrikam Residences'
