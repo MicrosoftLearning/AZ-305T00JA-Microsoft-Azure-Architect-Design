@@ -22,7 +22,7 @@ Tailwind Traders は、マーケティングによって提供されている既
 
  
 
-![アプリのアーキテクチャ](/media/Apparchitecture.png)
+![アプリのアーキテクチャ](media/Apparchitecture.png)
 
  
 
